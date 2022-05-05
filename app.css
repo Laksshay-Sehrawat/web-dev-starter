@@ -1,0 +1,67 @@
+:root {
+    --background-color: #B6F1F7;
+}
+
+
+
+div {
+    background-color: #E2B1B1;
+    border-width: 1.5px;
+    border-color: #25291C;
+    border-style: dashed none dashed none;
+    width: 250px;
+
+}
+
+button {
+    color: #9BC53D;
+    background-color: #25291C;
+    border-radius: 5px;
+}
+
+body {
+    background: var(--background-color);
+}
+
+p a {
+    color: #9BC53D;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+p {
+    color: #25291C;
+}
+
+input[type="password"] {
+    color: palegoldenrod;
+    background-color: #25291C;
+}
+
+input[type="email"] {
+    color: gold;
+    background-color: #25291C;
+}
+
+button:hover {
+    background-color: #B6F1F7;
+    color: #25291C;
+}
+
+a:hover {
+    color: #25291C;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #E2B1B1;
+    text-decoration: #9BC53D underline wavy 3px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 1px;
+    background-color: #5D7083;
+    padding: 10px 0px 10px;
+    width: fit-content;
+
+}
