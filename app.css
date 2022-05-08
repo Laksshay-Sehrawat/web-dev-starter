@@ -1,5 +1,6 @@
 :root {
     --background-color: #B6F1F7;
+    font-size: 20px;
 }
 
 
@@ -17,10 +18,12 @@ button {
     color: #9BC53D;
     background-color: #25291C;
     border-radius: 5px;
+    padding: 3px;
 }
 
 body {
     background: var(--background-color);
+    margin: 0;
 }
 
 p a {
@@ -31,6 +34,7 @@ p a {
 
 p {
     color: #25291C;
+    font-size: 1rem;
 }
 
 input[type="password"] {
@@ -58,10 +62,80 @@ h1 {
     text-decoration: #9BC53D underline wavy 3px;
     font-family: sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3rem;
     letter-spacing: 1px;
     background-color: #5D7083;
     padding: 10px 0px 10px;
     width: fit-content;
+    margin: 0;
+    display: inline-block;
 
+}
+
+.card {
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    width: 210px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border: 5px rgb(236, 183, 191) solid;
+    border-radius: 50%;
+}
+
+.static {
+    background-color: rgba(203, 139, 57, 0.836);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.static:nth-of-type(2n) {
+    background-color: #25291C;
+    border: 2px solid #ff000097;
+    position: static;
+    top: 100px;
+}
+
+.relative {
+    background-color: rgba(203, 139, 57, 0.836);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.relative:nth-of-type(2n) {
+    background-color: #25291C;
+    border: 2px solid #ff000097;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute {
+    background-color: rgba(203, 139, 57, 0.836);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.absolute:nth-of-type(2n) {
+    background-color: #25291C;
+    border: 2px solid #ff000097;
+    position: fixed;
+    top: 500px;
+    left: 200px;
 }
