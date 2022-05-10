@@ -24,6 +24,7 @@ button {
 body {
     background: var(--background-color);
     margin: 0;
+    font-family: Roboto, sans-serif;
 }
 
 p a {
