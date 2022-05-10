@@ -46,7 +46,6 @@ button:hover {
 }
 
 .navigation ul li {
-    display: inline-block;
     padding: 20px;
 }
 
@@ -65,8 +64,8 @@ button:hover {
     text-decoration: underline;
 }
 
-/* 
-nav {
-    position: fixed;
-    display: block;
-} */
+.navigation ul li {
+    position: sticky;
+    display: inline-block;
+    margin: 0%;
+}

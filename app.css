@@ -140,3 +140,7 @@ img {
     top: 500px;
     left: 200px;
 }
+
+main {
+    margin: 0 auto;
+}
