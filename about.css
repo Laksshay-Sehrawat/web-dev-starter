@@ -3,8 +3,8 @@ body {
 }
 
 .circle {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: #25291C;
     /* background-image: url(https://images.pexels.com/photos/4815143/pexels-photo-4815143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
@@ -39,13 +39,13 @@ button:hover {
     background-color: #9BC53D;
 }
 
-.navigation ul {
+ul {
     list-style-type: none;
     background-color: #25291C;
     margin: 0;
 }
 
-.navigation ul li {
+ul li {
     padding: 20px;
 }
 
@@ -68,4 +68,38 @@ button:hover {
     position: sticky;
     display: inline-block;
     margin: 0%;
+}
+
+.container div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 1%;
+}
+
+.container2 div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 20px;
+}
+
+.container {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    padding: 3%;
+
+}
+
+.container2 {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    padding: 3%;
+
 }
