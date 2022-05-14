@@ -94,12 +94,12 @@ ul li {
 
 .container2 {
     width: auto;
-    height: 200px;
+    height: auto;
     margin: 0 auto;
-    background-color: white;
+    background-color: #25291C;
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
