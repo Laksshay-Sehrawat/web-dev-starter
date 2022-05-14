@@ -1,0 +1,11 @@
+body {
+    background-color: aquamarine;
+}
+
+button {
+    background-color: black;
+    color: gold;
+    padding: 0.2rem 0.4rem;
+    border-radius: 15%;
+    border: 1px solid gold;
+}
