@@ -73,7 +73,6 @@ ul li {
 .container div {
     width: 200px;
     height: 200px;
-    margin: 1%;
 }
 
 .container2 div {
@@ -84,11 +83,10 @@ ul li {
 .container {
     width: auto;
     height: 200px;
-    margin: 0 auto;
     background-color: white;
     display: flex;
-    flex-direction: row-reverse;
-    padding: 3%;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
