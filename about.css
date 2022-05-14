@@ -82,11 +82,13 @@ ul li {
 
 .container {
     width: auto;
-    height: 200px;
+    height: 800px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
