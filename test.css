@@ -4,6 +4,17 @@ body {
     margin: 0;
 }
 
+ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 button {
     background-color: rgba(0, 0, 0, 0.667);
     color: gold;
@@ -28,4 +39,25 @@ button:hover {
 h1 {
     font-size: 4rem;
     margin: 0;
+    text-align: center;
+    color: bisque;
+    padding: 1rem;
+}
+
+h1 span {
+    background-color: rgb(18, 18, 18);
+    padding: 0.5rem 2rem;
+    border-radius: 40px;
+}
+
+@media (max-width:1000px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
 }
