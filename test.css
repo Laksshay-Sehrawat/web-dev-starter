@@ -1,14 +1,19 @@
 body {
     background-color: aquamarine;
     font-family: Roboto;
-    margin: 0;
+    /* margin: 0; */
 }
 
 ul,
 li {
     display: inline;
     margin: 0;
-    padding: 0%;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav a {
